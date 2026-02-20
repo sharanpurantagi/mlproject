@@ -26,3 +26,7 @@ setup(
     packages=find_packages(),
     install_requires=get_requirements("requirements.txt")
 )
+
+
+# setup.py is used when you run pip install -e .
+# When we run pip install -r requirements.txt install all the libraires there and also install your project in editable mode
