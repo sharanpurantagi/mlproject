@@ -1,0 +1,6 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 526-545-364
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2026 15:51:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2026 15:51:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2026 15:52:11] "[33mGET /predictdata HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2026 15:52:13] "[33mGET /predictdata HTTP/1.1[0m" 404 -

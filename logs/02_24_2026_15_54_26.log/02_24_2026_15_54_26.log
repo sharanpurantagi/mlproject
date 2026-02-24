@@ -1,0 +1,7 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 526-545-364
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2026 15:54:29] "[33mGET /predictdata HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'd:\\ML\\mlproject\\app.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\ml\\mlproject\\app.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\ml\\mlproject\\app.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\ML\\mlproject\\app.py', reloading

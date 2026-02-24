@@ -1,0 +1,4 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 526-545-364
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2026 15:59:46] "POST /predictdata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Feb/2026 16:00:05] "POST /predictdata HTTP/1.1" 200 -
