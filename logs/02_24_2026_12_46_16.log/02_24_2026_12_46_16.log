@@ -1,0 +1,10 @@
+INFO:numexpr.utils:Note: NumExpr detected 22 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:root:Entered the data ingestion method or component
+INFO:root:Read the datset as datframe
+INFO:root:Train Test Split initiated
+INFO:root:Ingestion of data completed
+INFO:root:Train and Test data read successfully.
+INFO:root:Numerical and Categorical pipelines created successfully.
+INFO:root:Splitting input and target completed.
+INFO:root:Data transformation completed successfully.
