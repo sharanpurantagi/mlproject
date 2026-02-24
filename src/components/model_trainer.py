@@ -38,7 +38,46 @@ class model_trainer:
                 "CatBoostRegressor": CatBoostRegressor(),
                 "AdaboostRegressor": AdaBoostRegressor()
             }
-            model_report:dict=evaluate_models(xtrain , xtest , ytrain , ytest , models)
+            params = {
+
+    "Random Forest": {
+        "n_estimators": [50, 100],
+        "max_depth": [None, 5]
+    },
+
+    "decision Tree": {
+        "criterion": ["squared_error"],
+        "max_depth": [None, 5]
+    },
+
+    "Gradient Boosting": {
+        "n_estimators": [50, 100],
+        "learning_rate": [0.1, 0.05]
+    },
+
+    "K-Neighbours Regressor": {
+        "n_neighbors": [3, 5],
+        "weights": ["uniform"]
+    },
+
+    "XGBoostRegressor": {
+        "n_estimators": [50],
+        "learning_rate": [0.1],
+        "max_depth": [3]
+    },
+
+    "CatBoostRegressor": {
+        "iterations": [100],
+        "learning_rate": [0.1],
+        "depth": [4]
+    },
+
+    "AdaboostRegressor": {
+        "n_estimators": [50, 100],
+        "learning_rate": [0.1]
+    }
+}
+            model_report:dict=evaluate_models(xtrain , xtest , ytrain , ytest , models ,  params)
 
             # Best Model Score
             best_model_score=max(sorted(model_report.values()))
